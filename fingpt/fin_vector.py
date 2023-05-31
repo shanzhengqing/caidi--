@@ -184,8 +184,8 @@ class content_embedding_upload():
             ids = df['ids'].tolist()
         
             qdrant_client = QdrantClient(
-                url="https://1e7256b5-ce74-4c84-a897-aeee30dcf0d5.us-east-1-0.aws.cloud.qdrant.io:6333",
-                api_key="FnZLq3wuA5hJ7Kis9D2m-pMib_zjeXV3CncrAQs3FqJEM4Z6BXE0eA",
+                url="?",
+                api_key="?",
                 )
             qdrant_client.recreate_collection(
                 collection_name='financial-vector',
@@ -204,7 +204,7 @@ class content_embedding_upload():
     @classmethod
     def search_pinecone(cls, embed, top_k, index_name:str, filters=None):
         # import pinecone
-        # pinecone.init(api_key="86b9b7f7-321b-459b-8701-90c29fb41c5a", environment="asia-northeast1-gcp")
+        # pinecone.init(api_key="?", environment="asia-northeast1-gcp")
         # index_name = 'financial-vector'
         index = pinecone.Index(index_name)
         if not filters:

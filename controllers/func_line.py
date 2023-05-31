@@ -16,9 +16,9 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage
 # import requests
 
 line_info = {
-    'Channel_Id':{'line_gpt':'1660833884'}, 
-    'Channel_Secret':{'line_gpt':'019c84fda470e8db339ea21a873640a4'},
-    'Channel_Token':{'line_gpt':'j9Ov8Qb62bpYY7ZeJXjBd6Xxnnhdw1tQKygEQ8O3G5BrLGMXH3LfbtFJw2+c3atwTB7TDT0sDCCfj9AkRjpCFh5N1Ew3DwGvnT2W0qzahKsjPG6AGaipdJf4qA6s5ut4/xHp5e0PGH8WkOvtdZmW1wdB04t89/1O/w1cDnyilFU='},
+    'Channel_Id':{'line_gpt':'?'}, 
+    'Channel_Secret':{'line_gpt':'?'},
+    'Channel_Token':{'line_gpt':'?'},
     
     }
 role_info = {
